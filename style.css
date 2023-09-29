@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+}
+
+nav{
+    position: fixed; 
+    background-color: white;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    padding-top: 8px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu1{margin-left: 20px;}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid dodgerblue;
+    color: red;
+}
+
+.signInBtn{
+    color: dodgerblue;
+}
+
+.btn1 {
+    color: dodgerblue;
+    background-color: white;
+    padding: 5px 20px;
+    border: 1px solid gainsboro;
+    font-weight: 500;
+}
+
+.btn2{
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 10px 20px;
+
+}
+
+.overview-grid {
+   margin: auto;
+   grid-template-columns: 1fr 1fr;
+   width: 80%;
+   display: grid;
+   grid-column-gap: 25px;
+   margin-top: 100px;
+   
+   
+}
+
+.grid-part {
+    height: 500px;
+}
+
+.grid-part h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    
+}
+
+.grid-part p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-part img{
+    height: 100%;
+}
+
+.trybtn {
+    margin-top: 30px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 15px;
+
+
+}
+
+.trybtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.gobtn{
+    margin-top: 30px;
+    background-color: white;
+    color: #1a73e8;
+    padding: 10px 15px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.gobtn:hover{
+    background-color: whitesmoke;
+    color: #1a73e8;
+    border-color: blue;
+
+}
+.signUpLink a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.minitags{
+    display: flex;
+}
+
+.seeText {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.features-grid {
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    display: grid;
+    grid-column-gap: 25px;
+    margin-top: 100px;
+    
+    
+ }
+
+.features-grid h2 {
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.people-grid {
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    display: grid;
+    grid-column-gap: 25px;
+    margin-top: 100px;
+    
+    
+ }
+
+ .people-grid h2 {
+    margin-top: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.greyArea {
+   margin-top: 150px;
+   background-color: whitesmoke;
+   width: 80%;
+   height: 60rem;
+   margin-left: 10rem;
+}
+
+.greyArea h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 40px;
+    padding: 100px;
+}
+
+.greyimg {
+    height: 70px;
+    margin-left: 3rem;
+    
+}
+.greyimg1 {
+    height: 90px;
+    margin-left: 18rem;
+}
+
+.whiteArea {
+    background-color: white;
+    width: 80%;
+    height: 30rem;
+    margin-left: 8rem;
+
+}
+
+.whiteArea img{
+    margin-left: 26rem;
+    width: 140px;
+    margin-top: 40px;
+}
+
+.salesforceText {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   margin-top: 30px;
+}
+
+.readText {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a73e8;
+    margin-top: 20px;
+}
+
+.driveText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+
+.driveimg {
+    margin-left: 140px;
+}
+
+.planText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.partText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.everyText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.looking img{
+    margin-left: 45rem;
+    margin-top: 40px; 
+}
+
+.trybtn2 {
+    margin-top: 30px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    margin-left: 37rem;
+    height: 50px;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 15px;
+
+
+}
+
+.gobtn2{
+    margin-top: 30px;
+    background-color: white;
+    color: #1a73e8;
+    padding: 10px 15px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+
+.trybtn3 {
+    margin-top: 30px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 15px;
+
+
+}
+
+.trybtn3:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.expText {
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.trybtn4 {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 15px;
+    margin-left: 35rem;
+
+
+}
+
+.gobtn4{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.readText2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a73e8;
+    
+}
+
+.followText {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr{
+    width: 80%;
+    height: 20vh;
+    margin-top: 50px;
+    margin-left: 10rem;
+    border-bottom: 1px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    empty-cells: hide;
+}
+ td{
+    border-bottom: 1px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-collapse: collapse;
+    empty-cells: hide;
+   
+}
+
+.footer{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 15rem;
+}
+
+.followText {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+}
+.blogtext {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-div{
+    position: fixed; 
+    background-color: white;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: grey;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
