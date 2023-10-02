@@ -200,6 +200,8 @@ nav a:hover {
    width: 80%;
    height: 60rem;
    margin-left: 10rem;
+   display: block;
+   justify-content: center;
 }
 
 .greyArea h1 {
@@ -211,35 +213,43 @@ nav a:hover {
     padding: 100px;
 }
 
-.greyimg {
-    height: 70px;
-    margin-left: 3rem;
-    
+.img-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;    
+    margin-bottom: 20px;
 }
-.greyimg1 {
-    height: 90px;
-    margin-left: 18rem;
+
+.img-box img {
+    height: 100px;
 }
+
 
 .whiteArea {
     background-color: white;
     width: 80%;
     height: 30rem;
     margin-left: 8rem;
+    display: block;
+    justify-content: center;
 
 }
 
-.whiteArea img{
-    margin-left: 26rem;
-    width: 140px;
-    margin-top: 40px;
+.sale-img{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sale-img img{
+    height: 100px;
 }
 
 .salesforceText {
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 30px;
-   margin-top: 30px;
+   padding: 40px;
 }
 
 .readText {
@@ -284,9 +294,25 @@ nav a:hover {
     margin-top: 30px;
 }
 
-.looking img{
-    margin-left: 45rem;
-    margin-top: 40px; 
+.looking{
+    display: block;
+    justify-content: center;
+}
+
+.one-img{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ready-section{
+    display: block;
+    justify-content: center;
+}
+
+.lastbtn{
+    display: flex;
+    justify-content: center;
 }
 
 .trybtn2 {
@@ -294,13 +320,12 @@ nav a:hover {
     background-color: #1a73e8;
     color: white;
     border: none;
-    margin-left: 37rem;
+    /* margin-left: 37rem; */
     height: 50px;
     border-radius: 5px;
     width: 180px;
     font-size: 15px;
-
-
+    margin-right: 10px;
 }
 
 .gobtn2{
@@ -313,8 +338,8 @@ nav a:hover {
     border-radius: 5px;
     width: 140px;
     font-size: 15px;
-    margin-left: 20px;
-    margin-bottom: 40px;
+    /* margin-left: 20px;
+    margin-bottom: 40px; */
 }
 
 
